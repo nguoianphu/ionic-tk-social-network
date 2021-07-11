@@ -43,6 +43,9 @@ npx cap open ios
 npm run start
 ```
 
+App will be opened at ```http://localhost:8100```
+Use any email (test@test.com) and 6 chars password (123456) to login.
+
 ### iOS Setup
 
 Download and install [Xcode](https://developer.apple.com/xcode/).
