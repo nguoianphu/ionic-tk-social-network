@@ -63,11 +63,10 @@ jobs:
             --common-chunk=true \
             --delete-output-path=true \
             --source-map=false
-        zip -r web.zip build
+        zip -r web.zip www
 
     # - name: Using Cordova to build app
     #   run: |
-    #    cp -R build www
     #    cd www
     #    # Add android platform to the project and remember that in config.xml & package.json.
     #    cordova platform rm android || true
